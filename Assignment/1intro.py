@@ -29,6 +29,6 @@ for i in range(len(ls)):
         loc = np.where(res>=thresh)
         for pt in zip(*loc[::-1]):
             arr.append([pt[0]+w/2,pt[1]+h/2])
-        writer.writerow([File,arr])
+    writer.writerow([File,arr])
 
 
